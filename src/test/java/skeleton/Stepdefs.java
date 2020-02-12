@@ -31,7 +31,7 @@ public class Stepdefs {
 		driver = new ChromeDriver();
 		driver.manage().window().maximize();
 		driver.manage().timeouts().implicitlyWait(15, TimeUnit.SECONDS);
-		driver.get("http://10.232.237.143:443/TestMeApp/login.htm");
+		driver.get("http://172.31.36.202:443/TestMeApp/fetchcat.htm");
 		
 	} 
 
